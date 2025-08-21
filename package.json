@@ -1,9 +1,9 @@
 {
   "name": "@joshuademarco/payload-gifs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A PayloadCMS Lexical editor plugin for inserting GIFs via Giphy API",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
