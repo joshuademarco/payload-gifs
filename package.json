@@ -1,0 +1,53 @@
+{
+  "name": "@joshuademarco/payload-gifs",
+  "version": "0.0.1",
+  "description": "A PayloadCMS Lexical editor plugin for inserting GIFs via Giphy API",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "payloadcms",
+    "lexical",
+    "gif",
+    "giphy",
+    "editor",
+    "plugin"
+  ],
+  "author": "Joshua De Marco",
+  "license": "MIT",
+  "peerDependencies": {
+    "@payloadcms/richtext-lexical": "^3.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuademarco/payload-gifs.git"
+  },
+  "homepage": "https://github.com/joshuademarco/payload-gifs#readme",
+  "bugs": {
+    "url": "https://github.com/joshuademarco/payload-gifs/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "sideEffects": false
+}

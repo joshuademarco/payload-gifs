@@ -1,0 +1,30 @@
+node_modules
+
+# TypeScript
+*.tsbuildinfo
+*.js.map
+dist/
+build/
+
+# pnpm
+.pnpm-store/
+.pnpm-debug.log*
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
